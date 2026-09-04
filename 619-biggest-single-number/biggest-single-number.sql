@@ -6,3 +6,4 @@ select num
 group by num
 having count(num) = 1
 ) as xyz;
+
